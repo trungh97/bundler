@@ -1,0 +1,20 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "main": "bundler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "The simple example that describe how a bundler works",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babylon": "^6.18.0"
+  },
+  "devDependencies": {
+    "@babel/traverse": "^7.25.9"
+  }
+}
